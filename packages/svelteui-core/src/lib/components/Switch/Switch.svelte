@@ -67,7 +67,12 @@ A user can use this component to enable/disable something, normally used for boo
 	.switch {
 		display: flex;
 		flex-direction: row;
+    cursor: pointer;
 	}
+  
+  input {
+    cursor: inherit;
+  }
 
 	.label {
 		padding-left: 10px;
